@@ -1,9 +1,7 @@
 # EcoSmartLib
-An Arduino library to interface with EcoSmart tankless water heaters
+An Arduino library to interface with EcoSmart tankless water heaters.
 
-I have written a library which allows commands to be sent to the EcoSmart heaters from an Arduino. 
-
-I have not completed the 'read' portion of the library.  I have recorded all the EcoSmart's commands via oscilloscope and translated them into binary sequences but have not had time or need to implement them yet.
+Write support only. Does not support reading settings from water heater.  I have recorded all the EcoSmart's commands via oscilloscope and translated them into binary sequences but have not had time or need to implement them yet.
 
 Here are the details of the EcoSmart protocol
 See https://electronics.stackexchange.com/questions/233374/reverse-engineering-asynchronous-serial-protocol-for-ecosmart-tankless-water-hea
